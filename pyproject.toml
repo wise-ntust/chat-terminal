@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "chat-terminal"
+version = "0.1.0"
+description = "A Terminal Chat"
+readme = "README.md"
+authors = ["Loki <yongxiang.zhan@outlook.com>"]
+packages = [{ include = "src", from = "." }]
+repository = "https://github.com/wise-ntust/chat-terminal"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+textual = "^2.1.2"
+
+pydantic = "^2.10.6"
+pydantic-settings = "^2.8.1"
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+isort = "^6.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+chat-terminal = "src.app:start"

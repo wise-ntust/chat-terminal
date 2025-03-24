@@ -1,0 +1,100 @@
+#sidebar {
+  dock: left;
+  width: 20;
+  height: 100%;
+  border: round gray;
+}
+
+#listview-friend {
+  padding: 0 1;
+  width: 100%;
+  border: none;
+}
+
+#button-friends {
+  width: 100%;
+  border: none;
+}
+
+#button-login {
+  width: 100%;
+  border: none;
+}
+
+#input-message {
+  padding: 0 1;
+  border: round gray;
+}
+
+#richlog-message {
+  padding: 0 1;
+  border: round gray;
+}
+
+#vertical-layout {
+  layout: vertical;
+  height: auto;
+}
+
+#horizontal-layout {
+  layout: horizontal;
+  height: auto;
+}
+
+#container-friend-modal {
+  padding: 0 1;
+  width: 80%;
+  height: 80%;
+  border: round gray;
+}
+
+#input-add-friend {
+  padding: 0 1;
+  border: round gray;
+}
+
+#button-close-modal {
+  width: 100%;
+  border: none;
+}
+
+FriendModal {
+  align: center middle;
+}
+
+#button-del-friend {
+  border: none;
+}
+
+#label-friend-name {
+  border: none;
+}
+
+#grid-friend-item {
+  grid-size: 2 1;
+  grid-columns: 1fr 8;
+  height: 1;
+  width: 100%;
+  border: none;
+}
+
+#grid-friend-request-item {
+  grid-size: 3 1;
+  grid-columns: 1fr 8 8;
+  height: 1;
+  width: 100%;
+  border: none;
+}
+
+#button-accept-friend-request {
+  border: none;
+}
+
+#button-reject-friend-request {
+  border: none;
+}
+
+Toast {
+  padding: 0 1;
+  border: round gray;
+}
